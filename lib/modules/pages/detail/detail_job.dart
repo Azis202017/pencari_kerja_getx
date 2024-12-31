@@ -371,6 +371,7 @@ class DetailJobView extends GetView<DetailJobController> {
           ),
         ),
       ),
+   
     );
   }
 }
