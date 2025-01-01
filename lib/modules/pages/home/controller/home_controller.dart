@@ -16,7 +16,7 @@ class   HomeController extends GetxController {
       downloadProgress.value = 0.0;
 
       job.value = await JobService().getJobList(
-        resultPerPage: 7000,
+        resultPerPage: 2500,
         onReceiveProgress: (received, total) {
           if (total != -1) {
             downloadProgress.value = received / total;
